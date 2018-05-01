@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Hello World') {
       steps {
-        echo 'Hello ${MY_NAME}!'
+        echo "Hello ${MY_NAME}!"
         sh 'java -version'
       }
     }
